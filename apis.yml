@@ -1,8 +1,30 @@
 aid: wave-ai
 name: Wave AI
-description: Wave AI is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Wave AI (WaveAI) is a Sunnyvale, California AI music company founded in 2017 by
+  David Loker, Dr. Maya Ackerman, and Chris Cassion, building foundational generative
+  AI models for music and songwriting. Its flagship product LyricStudio is an
+  AI-powered lyric-writing assistant used by millions of artists and creators to
+  generate genre- and topic-aware lyrical suggestions, rhymes, and full songs, and
+  MelodyStudio adds generative vocal-melody and chord generation. The company is
+  backed by 500 Global, Horizon 3 Venture Capital, Kilowatt Capital, and angel
+  investors. Wave AI ships consumer web applications rather than a public developer
+  API; this profile captures its company identity and public web properties. Added to
+  the API Evangelist network as a 500 Global portfolio lead and enriched with a
+  domain-security probe and verified public link properties.
 url: https://raw.githubusercontent.com/api-evangelist/wave-ai/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://wave-ai.net/wp-content/uploads/2022/10/WaveAI-300x300.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Music
+- Generative AI
+- Songwriting
+- Creativity
+- Machine Learning
+- Consumer SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,34 @@ maintainers:
 common:
 - type: Website
   url: https://wave-ai.net
+- type: Website
+  name: LyricStudio
+  url: https://lyricstudio.net/
+- type: Website
+  name: MelodyStudio
+  url: https://melodystudio.net/
+- type: Team
+  url: https://wave-ai.net/team/
+- type: Contact
+  url: https://wave-ai.net/contact/
+- type: Careers
+  url: https://wave-ai.net/careers-2/
+- type: Pricing
+  url: https://lyricstudio.net/plans
+- type: SignUp
+  url: https://lyricstudio.net/signup
+- type: Login
+  url: https://lyricstudio.net/login
+- type: Support
+  url: https://lyricstudio.net/faq
+- type: TermsOfService
+  url: https://lyricstudio.net/terms
+- type: PrivacyPolicy
+  url: https://lyricstudio.net/privacy
+- type: DomainSecurity
+  url: security/wave-ai-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
