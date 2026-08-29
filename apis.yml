@@ -13,6 +13,17 @@ description: >-
   the API Evangelist network as a 500 Global portfolio lead and enriched with a
   domain-security probe and verified public link properties.
 url: https://raw.githubusercontent.com/api-evangelist/wave-ai/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
