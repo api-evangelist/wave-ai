@@ -52,7 +52,7 @@ tags:
 - Generative AI
 - Songwriting
 - Creativity
-- Machine-Learning
+- Machine Learning
 - Consumer SaaS
 tags_raw:
 - Company
@@ -63,6 +63,7 @@ tags_raw:
 - Creativity
 - Machine Learning
 - Consumer SaaS
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
